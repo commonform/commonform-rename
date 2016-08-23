@@ -1,0 +1,14 @@
+{
+  "name": "commonform-rename",
+  "version": "0.0.0",
+  "description": "replace terms and heaings in Common Forms",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "commonform/commonform-rename",
+  "files": [
+    "index.js"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
