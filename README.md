@@ -1,5 +1,6 @@
+```javascript
 var assert = require('assert')
-var rename = require('./')
+var rename = require('commonform-rename')
 
 var first = {
   content: [
@@ -34,3 +35,4 @@ assert.deepEqual(second, {
     {reference: 'Background'}
   ]
 })
+```
