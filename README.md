@@ -10,7 +10,7 @@ var first = {
   ]
 }
 
-rename('term', 'Company', 'Enterprise', first)
+rename.term('Company', 'Enterprise', first)
 
 assert.deepEqual(first, {
   content: [
@@ -27,7 +27,7 @@ var second = {
   ]
 }
 
-rename('heading', 'Recitals', 'Background', second)
+rename.heading('Recitals', 'Background', second)
 
 assert.deepEqual(second, {
   content: [

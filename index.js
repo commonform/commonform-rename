@@ -13,17 +13,7 @@
  * permissions and limitations under the License.
  */
 
-module.exports = function rename (type, target, replacement, form) {
-  if (type === 'heading') {
-    renameHeading(target, replacement, form)
-  } else if (type === 'term') {
-    renameTerm(target, replacement, form)
-  } else {
-    throw new Error('Invalid type "' + type + '"')
-  }
-}
-
-function renameHeading (target, replacement, form) {
+exports.heading = function renameHeading (target, replacement, form) {
   form.content.forEach(function (element) {
     if (typeof element === 'object') {
       if (element.hasOwnProperty('form')) {
@@ -36,7 +26,7 @@ function renameHeading (target, replacement, form) {
   })
 }
 
-function renameTerm (target, replacement, form) {
+exports.term = function renameTerm (target, replacement, form) {
   form.content.forEach(function (element) {
     if (typeof element === 'object') {
       if (element.hasOwnProperty('form')) {
