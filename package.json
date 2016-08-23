@@ -1,6 +1,6 @@
 {
   "name": "commonform-rename",
-  "description": "replace terms and heaings in Common Forms",
+  "description": "replace terms and headings in Common Forms",
   "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "devDependencies": {
