@@ -1,8 +1,8 @@
 ```javascript
-var assert = require('assert')
-var rename = require('commonform-rename')
+import rename from 'commonform-rename'
+import assert from 'node:assert'
 
-var first = {
+const first = {
   content: [
     {definition: 'Company'}, ' means ', {blank: ''}, ' plus',
     {form: {content: ['shareholders of ', {use: 'Company'}]}},
@@ -20,7 +20,7 @@ assert.deepEqual(first, {
   ]
 })
 
-var second = {
+const second = {
   content: [
     {heading: 'Recitals', form: {content: ['...']}},
     {reference: 'Recitals'}
