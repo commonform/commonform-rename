@@ -1,5 +1,5 @@
 ```javascript
-import rename from 'commonform-rename'
+import * as rename from 'commonform-rename'
 import assert from 'node:assert'
 
 const first = {
