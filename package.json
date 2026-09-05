@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "devDependencies": {
-    "defence-cli": "^2.0.0"
+    "defence-cli": "^3.0.1"
   },
   "type": "module",
   "main": "index.js",
